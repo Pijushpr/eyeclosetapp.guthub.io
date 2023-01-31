@@ -1,0 +1,228 @@
+body { 
+    margin: 0;
+}
+
+.header-main-wrapper {
+    background-color: #F5F5DC;
+    height: 700px;
+    padding-right: 18.75%;
+    padding-left: 18.75%;
+    padding-top: 28px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background: white;
+    padding-right: 18.75%;
+    padding-left: 18.75%;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-right-section {
+    width: 50%;
+}
+
+.main-left-section {
+    height: 700px;
+    max-width: 42%;
+    width: 100%;
+    margin: auto 0;
+}
+
+nav.header-nav-links {
+    display: flex;
+    gap: 35px;
+}
+
+.header-nav-links a {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: #000000;
+    text-decoration: none;
+}
+
+/*image positioning of right main contents*/
+.main-right-section {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .bg-img-1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* border: 1px solid red; */
+  }
+  
+  .bg-img-2 {
+    position: absolute;
+    top: 5.5%;
+    left: 40%;
+    /* border: 1px solid green; */
+  }
+
+  .main-section-heading {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 68px;
+    letter-spacing: -3px;
+    color: #2F2E2E;
+  }
+  .main-section-heading span {
+    font-weight: 800;
+  }
+
+  .main-section-paragraph {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+    letter-spacing: 0.15px;
+    color: #000000;
+  }
+
+  /*form input and btn stylings*/
+    input#waitlist-email {
+        width: -webkit-fill-available;
+        background: #FFFDD0;
+        border: 1px solid #F3E0D6;
+        border-radius: 100px;
+        padding: 19px 16px;
+        gap: 10px;
+        position: relative;
+    }
+
+    form {
+        position: relative;
+    }
+
+    input.join-waitlist-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #101010;
+        border-radius: 100px;
+        color: white;
+        padding: 18px 16px;
+    }
+    #waitlist-email::-webkit-input-placeholder { /* Edge */
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0.2px;
+        color: #000000;
+    }
+    
+    #waitlist-email:-ms-input-placeholder { /* Internet Explorer */
+      font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0.2px;
+        color: #000000;
+    }
+    
+    #waitlist-email::placeholder {
+      font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0.2px;
+        color: #000000;
+    }
+
+    /*footer styles*/
+    section.footer-right-details {
+        display: grid;
+        margin-top: 50px;
+    }
+
+    .footer-logo {
+        margin-bottom: 34px;
+    }
+
+    .footer-nav-links {
+        margin-bottom: 30px;
+    }
+
+    .footer-social-icons {
+        margin-bottom: 25px;
+    }
+
+    .footer-nav-links {
+        display: grid;
+    }
+    p.footer-copyright {
+        margin: 0px;
+    }
+    .footer-nav-links a {
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.25px;
+        color: #171515;
+        text-decoration: none;
+    }
+
+    .footer-right-details {
+        height: fit-content;
+    }
+    
+    .footer-right-details a {
+        margin-bottom: 17px;
+    }
+
+
+    /*responsiveness*/
+    @media only screen and (max-width: 1024px) {
+        .bg-img-1 {
+            width: 400px;
+        }
+        .bg-img-2 {
+            width: 300px;
+        }
+
+    }
+    @media only screen and (max-width: 768px) {
+        .bg-img-1 {
+            width: 300px;
+            left: 10%;
+        }
+        .bg-img-2 {
+            width: 250px;
+        }
+
+    }
+    /* @media only screen and (max-width: 768px) {
+        .logo-header img {
+            width: 100px;
+        }
+    } */

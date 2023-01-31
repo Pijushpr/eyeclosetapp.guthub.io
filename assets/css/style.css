@@ -1,0 +1,611 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=PT+Serif&display=swap');
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../../fonts/Urbanist-Black.woff2') format('woff2'),
+        url('../../fonts/Urbanist-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../../fonts/Urbanist-ExtraBoldItalic.woff2') format('woff2'),
+        url('../../fonts/Urbanist-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../../fonts/Urbanist-Bold.woff2') format('woff2'),
+        url('../../fonts/Urbanist-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../../fonts/Urbanist-BlackItalic.woff2') format('woff2'),
+        url('../../fonts/Urbanist-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../../fonts/Urbanist-Italic.woff2') format('woff2'),
+        url('../../fonts/Urbanist-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../../fonts/Urbanist-ExtraBold.woff2') format('woff2'),
+        url('../../fonts/Urbanist-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../../fonts/Urbanist-BoldItalic.woff2') format('woff2'),
+        url('../../fonts/Urbanist-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../../fonts/Urbanist-LightItalic.woff2') format('woff2'),
+        url('../../fonts/Urbanist-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../../fonts/Urbanist-Light.woff2') format('woff2'),
+        url('../../fonts/Urbanist-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../../fonts/Urbanist-ExtraLightItalic.woff2') format('woff2'),
+        url('../../fonts/Urbanist-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../../fonts/Urbanist-ExtraLight.woff2') format('woff2'),
+        url('../../fonts/Urbanist-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../../fonts/Urbanist-ThinItalic.woff2') format('woff2'),
+        url('../../fonts/Urbanist-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../../fonts/Urbanist-Thin.woff2') format('woff2'),
+        url('../../fonts/Urbanist-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../../fonts/Urbanist-SemiBold.woff2') format('woff2'),
+        url('../../fonts/Urbanist-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../../fonts/Urbanist-MediumItalic.woff2') format('woff2'),
+        url('../../fonts/Urbanist-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../../fonts/Urbanist-SemiBoldItalic.woff2') format('woff2'),
+        url('../../fonts/Urbanist-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../../fonts/Urbanist-Regular.woff2') format('woff2'),
+        url('../../fonts/Urbanist-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../../fonts/Urbanist-Medium.woff2') format('woff2'),
+        url('../../fonts/Urbanist-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: #fff;
+    font-size: 16px;
+    font-family: 'Urbanist';
+    color: #000;
+}
+
+.navbar-default {
+    background-color: #E9DAC4;
+    border-color: #E9DAC4;
+    box-shadow: unset;
+    margin: 0 !important;
+}
+
+.navbar-brand {
+    padding-top: 28px;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    background-color: #E9DAC4;
+    border-color: #E9DAC4;
+    box-shadow: unset;
+    padding-top: 13px;
+}
+
+.top-part {
+    background: #E9DAC4;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+}
+
+.flex_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.banner_text {
+    max-width: 486px;
+}
+
+.banner_text h1 {
+    margin-top: 0;
+    margin-bottom: 37px;
+}
+
+.banner_text h1 b {
+    font-family: 'Urbanist';
+    font-size: 61px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: -0.5px;
+    text-align: left;
+}
+
+.banner_text h1 span {
+    font-family: 'PT Serif', serif;
+    font-size: 61px;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: -0.5px;
+    text-align: left;
+}
+
+.banner_text p {
+    font-family: 'Urbanist';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: 'justified';
+    margin-bottom: 37px;
+
+}
+
+.banner_image {
+    position: relative;
+    max-width: 100%;
+}
+.span_number{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 145.887px;
+    line-height: 124px;
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+    .span_text{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 113.468px;
+        line-height: 62px;
+}
+#sucessModal h3{
+    font-family: 'Urbanist';
+font-size: 42px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0.3241935670375824px;
+text-align: left;
+}
+#sucessModal p{
+    font-family: 'Urbanist';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0.3241935670375824px;
+    text-align: center;
+    
+}
+#sucessModal ul{
+    padding: 0;
+    list-style: none;
+}
+#sucessModal ul li{
+    padding: 12px 0;
+}
+#sucessModal ul li a{
+    color:#000;
+}
+#sucessModal ul li a img{
+    margin-right: 10px;
+}
+#sucessModal p a{
+    font-family: 'Urbanist';
+font-size: 15px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0.3241935670375824px;
+text-align: center;
+color:rgba(0,0,0,0.5)    
+}
+.row.sucessModal-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.banner_image img {
+    width: 100%;
+    position: relative;
+    z-index: 9;
+    top: 30px;
+}
+
+button.needsclick.go1127836222.kl-private-reset-css-Xuajs1 {
+    position: absolute;
+    width: 140px;
+    right: 1rem;
+}
+
+footer {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+footer .footer-logo {
+    margin-bottom: 30px;
+}
+
+footer .footer-nav-links ul,
+.footer-social-icons ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+footer .footer-nav-links ul li a {
+    font-family: 'Urbanist';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: #000;
+    cursor: pointer;
+}
+img.mail_svg {
+    max-width: 25px;
+}
+.footer-social-icons ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-copyright {
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+}
+
+.footer-right-details {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: end;
+    gap: 16px;
+}
+#sucessModal .modal-body{
+    background-image: url('../images/modal_back.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.col-sm-6.modal_right_part {
+    background: #fff;
+    position: relative;
+}
+.round_corner{
+    background-image: url(../images/round_corner.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -8px;
+    bottom: 0;
+    height: 71px;
+    width: 62px;
+}
+/* #sucessModal .modal_left_part:before{
+    background-image: url('../images/modal_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+} */
+.modal_left_part {
+    text-align: center;
+}
+@media (min-width: 768px){
+#sucessModal .modal-dialog {
+    width: 700px;
+}
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .banner_text h1{
+        text-align: left;
+    margin-bottom: 10px;    
+    }
+    .banner_text h1 b,
+    .banner_text h1 span {
+        font-size: 34px;
+        font-weight: 400;
+        line-height: 38px;
+    }
+
+    .banner_text p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.15000000596046448px;
+        text-align: justify;
+    }   
+}
+
+@media only screen and (max-width: 768px) {
+    .banner_text h1 {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .navbar-brand{
+        padding-top: 20px;
+    }
+    .row.sucessModal-flex{
+        flex-direction: column;
+    }
+    .navbar-header{
+        background-color: #E9DAC4;
+        border-color: #E9DAC4;
+        box-shadow: unset;
+        margin: 0 !important;
+    }
+    .banner_text h1 b,
+    .banner_text h1 span {
+        font-size: 34px;
+        font-weight: 400;
+        line-height: 38px;
+    }
+
+    .banner_text p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.15000000596046448px;
+        text-align: center;
+    }
+
+    .flex_div {
+        flex-direction: column;
+    }
+    #sucessModal .modal-body{
+        background: unset;
+    }
+    .col-sm-6.modal_right_part {
+        width: 100%;
+    }
+    #sucessModal p{
+        text-align: left;
+    }
+    .modal_left_part {
+        background-image: url(../images/modal_back.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        text-align: center;
+    }
+    #sucessModal .modal-body {
+        overflow: hidden;
+        padding: 0 15px;
+    }
+    .span_number{
+    font-size: 120px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0.3241935670375824px;
+    }
+    .span_text{
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0.3241935670375824px;
+    }
+    #sucessModal h3{
+font-size: 32px;
+font-weight: 600;
+line-height: 37px;
+    }
+    #sucessModal p a {
+        text-align: center;
+        width: 100%;
+        float: left;
+        margin-bottom: 21px;
+    }
+    .modal_left_part {
+        padding: 15rem 0;
+    }
+    footer {
+        text-align: center;
+    }
+
+    .footer-right-details {
+        justify-content: center;
+        gap: 16px;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+
+    .footer-copyright {
+        text-align: center;
+    }
+}
+
+
+/*mailchimp css*/
+
+#mc_embed_signup{
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif;  
+    width:auto; 
+}
+
+#mc_embed_signup form {
+    margin: 0 !important;
+}
+
+div#mc_embed_signup_scroll {
+    display: flex;
+    position: relative;
+    max-width: 486px
+}
+
+.mc-field-group {
+    width: 100% !important;
+}
+
+.optionalParent {
+    position: absolute;
+    right: 0;
+    width:auto !important;
+}
+
+input#mce-EMAIL {
+    padding: 18px 16px !important;
+    border: 1px solid #F3E0D6;
+    border-radius: 100px !important;
+}
+
+input#mc-embedded-subscribe {
+    background: #101010 !important;
+    border-radius: 100px !important;
+    padding: 11px 16px !important;
+    margin: 0 !important;
+    height: auto !important;
+    width: 100% !important;
+}
+
+#mc_embed_signup .foot {
+    grid-template-columns: auto !important;
+    width: 100% !important;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+    background-color: transparent !important;
+}
+
+input#mce-EMAIL::-webkit-input-placeholder { /* Edge */
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+input#mce-EMAIL:-ms-input-placeholder { /* Internet Explorer */
+  font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+input#mce-EMAIL::placeholder {
+  font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
